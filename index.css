@@ -1,0 +1,78 @@
+body {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3O5Dce1TkHGiwelE10KU8N6EskY8g_kIMcg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+    position: relative;
+    height: 600px;
+    left: 0px;
+
+}
+
+img {
+    clip-path: circle();
+}
+
+.main {
+    height: 140px;
+    width: 100%;
+    background-image: url("https://thumbs.dreamstime.com/b/teamwork-concept-chart-business-elements-hand-drawn-blackboard-57719207.jpg");
+    background-size: 300px;
+    color: lightcyan;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #2d302f;
+    padding-top: 50px;
+    font-size: 125px;
+
+
+}
+
+.btn {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+
+}
+
+button {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 50px;
+    width: 100px;
+    background-image: linear-gradient(white, gray);
+    border-radius: 5px;
+}
+
+#data {
+    width: 99%;
+    height: 450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+
+}
+
+.table {
+    width: 750px;
+
+}
+
+table {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+table tr :hover {
+    background-color: black;
+
+}
